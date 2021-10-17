@@ -36,7 +36,7 @@ function scope(){
 - block scope을 무시한다.
 > **let** : 변수 선언용!
 ***
-## function()
+## function ()
 함수는 어떤 코드의 묶음이고, 
 ```javascript
 function do_something() {...}
