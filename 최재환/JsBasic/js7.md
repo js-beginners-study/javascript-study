@@ -22,8 +22,8 @@ function scope(){
 		var c = 1;
 		console.log(a, b, c); // 1 1 1
 	}
-	// c는 값이 변했다.
-	// var는 함수 단위라서 if문 밖에서 선언한 값이 변한다.
+	//c는 값이 변했다.
+	//var는 함수 단위라서 if문 밖에서 선언한 값이 변한다.
 	// let과 const로 선언한 겂은 if문 안쪽 내용이 바깥 내용에 영향을 끼치지 않는다.
 	console.log(a, b, c); //  0 0 1
 }
